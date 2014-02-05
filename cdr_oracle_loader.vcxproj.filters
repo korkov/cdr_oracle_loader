@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dat_reader.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="oracle_loader.cpp" />
+    <ClCompile Include="cdr_file_splitter.cpp" />
+    <ClCompile Include="monitor.cpp" />
+    <ClCompile Include="options.cpp" />
+    <ClCompile Include="load_one_file.cpp" />
+    <ClCompile Include="..\logging\log.cpp">
+      <Filter>logging</Filter>
+    </ClCompile>
+    <ClCompile Include="..\logging\log_helper.cpp">
+      <Filter>logging</Filter>
+    </ClCompile>
+    <ClCompile Include="loaders.cpp" />
+    <ClCompile Include="loader_base.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dat_reader.hpp" />
+    <ClInclude Include="xdr_format.hpp" />
+    <ClInclude Include="oracle_loader.hpp" />
+    <ClInclude Include="log.hpp" />
+    <ClInclude Include="cdr_buffer.hpp" />
+    <ClInclude Include="cdr_file_splitter.hpp" />
+    <ClInclude Include="..\otl\otlv4.h" />
+    <ClInclude Include="cdr_field.hpp" />
+    <ClInclude Include="precision_checker.hpp" />
+    <ClInclude Include="otl.hpp" />
+    <ClInclude Include="monitor.hpp" />
+    <ClInclude Include="options.hpp" />
+    <ClInclude Include="load_one_file.hpp" />
+    <ClInclude Include="cdr_oracle_loader_version.hpp" />
+    <ClInclude Include="sql_cdr_6.hpp" />
+    <ClInclude Include="sql_cdr_9.hpp" />
+    <ClInclude Include="safe_container.hpp" />
+    <ClInclude Include="timer.hpp" />
+    <ClInclude Include="..\logging\log.h">
+      <Filter>logging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\logging\log_helper.h">
+      <Filter>logging</Filter>
+    </ClInclude>
+    <ClInclude Include="loader_base.hpp" />
+    <ClInclude Include="loaders.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="logging">
+      <UniqueIdentifier>{621397dd-2330-4063-aa0c-a6afe841de04}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
